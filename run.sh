@@ -16,4 +16,13 @@ if [ -f $file ]; then
     args="$args file.js"
 fi
 
+
+id=$ID_MAP
+echo $id
+if [[ -v ID_MAP ]]; then
+  args="$args --id $id"
+fi
+
+echo "Command to execute:[ json server $args ]"
+
 json-server $args
