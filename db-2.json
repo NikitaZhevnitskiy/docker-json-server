@@ -1,0 +1,15 @@
+{
+  "requests": [
+    {
+      "buy_id": "123",
+      "amount": {
+        "amount": 0,
+        "currency": "NOK"
+      },
+      "external_references": {
+        "external_description": "myconnement",
+        "external_reference_id": "dasdasdasdaf3ef3g5f"
+      }
+    }
+  ]
+}
